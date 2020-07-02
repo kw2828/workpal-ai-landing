@@ -62,10 +62,10 @@ export default class HeroPage extends React.Component {
                 </div>
                 <div className="info">
                   <h1>
-                    Work towards what<br /> really matters.
+                    Win your work day.<br /> Prioritize your tasks.
                   </h1>
                   <p className="info-subtext">
-                  Workpal is an AI assistant to help busy professionals materialize their goals by managing their time and health. 
+                  Workpal is an AI assistant to help busy professionals materialize their goals by managing their tasks through Conversational AI and proven frameworks. 
                   </p>
                   <form onSubmit={this.handleSubmit} className="form-group">
                         <div className="row">

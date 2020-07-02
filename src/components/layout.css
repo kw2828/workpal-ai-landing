@@ -371,7 +371,7 @@ input:focus {
 
   .mobile-image {
     display: inline-block;  
-    margin: 0;
+    margin: 0px;
   }
 
   .Hero h1 {
@@ -455,6 +455,6 @@ input:focus {
   }
 
   .not_submitted {
-    width: 120px;
+    width: 100px;
   }
 }
