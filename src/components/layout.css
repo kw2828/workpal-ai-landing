@@ -1,6 +1,7 @@
 html, body, #___gatsby {
   height: 100%;
   width: 100%;
+  background: #22336E;
 }
 
 body {
@@ -363,31 +364,21 @@ input:focus {
     height: 100%;
     width: 100%;
     min-width: fit-content;
-    background: url('../images/hermes/nyc_background.png');
+    background: #22336E;
     background-size: cover; 
     background-repeat: no-repeat;
   }
 
   .mobile-image {
-    display: inline-block;
-    background: none
+    display: inline-block;  
+    margin: 0;
   }
 
   .Hero h1 {
     margin: 0;
-    color: white;
     font-size: 35px;
     line-height: 1.2;
-    margin-bottom: 10px;
     animation: HeroAnimationVertical 3s 0.2s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
-  }
-  
-  .Hero p {
-    font-size: 14px;
-    line-height: 1.5;
-    color: white;
-    margin-right: 50px;
-    animation: HeroAnimationVertical 4s 0.4s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
   }
 
   .HeaderGroup {
@@ -403,7 +394,8 @@ input:focus {
     justify-items: center;
     margin-right: 0px;
     margin: 0px auto;
-    margin-top: 10px;
+    margin-top: 30px;
+    margin-bottom: 50px;
   }
 
   .info {
@@ -413,9 +405,10 @@ input:focus {
     align-items: center;
     justify-items: center;
     height: 100%;
-    margin-top: 80px;
     margin-right: 30px;
     margin-left: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
   }
 
   .image {
@@ -425,10 +418,11 @@ input:focus {
   .Hero p {
     font-size: 18px;
     line-height: 1.5;
-    color: white;
     text-align: center;
     margin-right: 20px;
     margin-left: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
     animation: HeroAnimationVertical 4s 0.4s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
   }
 
@@ -442,8 +436,8 @@ input:focus {
   }
 
   input {
-    width: 50%;
-    min-width: 190px;
+    width: 40%;
+    min-width: 170px;
     height: 45px;
     border-radius: 10px 0px 0px 10px; /* top left, top right, bottom right, bottom left */
     padding-left: 20px;
@@ -451,8 +445,6 @@ input:focus {
     font-size: 12px;
     margin-top: 15px;
     background: none;
-    border: 2px solid white;
-    color: white;
     vertical-align: bottom;
     float: left;
     animation: HeroAnimationVertical 5s 0.5s forwards cubic-bezier(0.2, 0.8, 0.2, 1);

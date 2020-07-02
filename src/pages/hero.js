@@ -2,7 +2,7 @@ import React from "react";
 import Layout from "../components/layout";
 import Image from "../components/image";
 import WorkingIcon from '../components/working'
-import WorkingIcon2 from '../components/working-animation'
+import WorkingMobile from '../components/working-mobile'
 import SEO from "../components/seo";
 import addToMailchimp from 'gatsby-plugin-mailchimp'
 import Hero from './'
@@ -57,7 +57,9 @@ export default class HeroPage extends React.Component {
             <div className="Hero">
               <SEO title="Home" />
               <div className="HeroGroup">
-                <div className="mobile-image" />
+                <div className="mobile-image">
+                  <WorkingMobile />
+                </div>
                 <div className="info">
                   <h1>
                     Work towards what<br /> really matters.
@@ -70,7 +72,7 @@ export default class HeroPage extends React.Component {
                           <input
                               type="text"
                               name="phone"
-                              placeholder="Phone # (e.g. 718 222-3333)"
+                              placeholder="Phone # 718 222-3333"
                               value={this.state.phone}
                               onChange={this.handleInputChange} />    
                           {button}                
