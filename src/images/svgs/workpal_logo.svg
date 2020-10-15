@@ -1,26 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="58px" height="45px" viewBox="0 0 58 45" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 61 (89581) - https://sketch.com -->
-    <title>Logo</title>
+    <title>content</title>
     <desc>Created with Sketch.</desc>
-    <defs>
-        <linearGradient x1="38.9623848%" y1="50%" x2="91.5331913%" y2="78.6334511%" id="linearGradient-1">
-            <stop stop-color="#1737B4" offset="0%"></stop>
-            <stop stop-color="#2B83D2" offset="52.6625875%"></stop>
-            <stop stop-color="#40D0F1" offset="100%"></stop>
-        </linearGradient>
-    </defs>
-    <g id="Landing-Page---Workpal-Red" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Landing" transform="translate(-301.000000, -39.000000)">
-            <g id="Logo" transform="translate(301.000000, 39.000000)">
-                <g id="Group-2">
-                    <g id="Logo">
-                        <circle id="Oval-Copy-24" fill="url(#linearGradient-1)" cx="30" cy="30" r="30"></circle>
-                        <path d="M25.65,39.75 C27.2045268,35.6541208 28.3260044,32.8443836 29.014433,31.3207883 C31.2648575,26.3402628 33.0933798,23.85 34.5,23.85 C36.5520701,23.85 39.5020701,29.15 43.35,39.75" id="Line-Copy-9" stroke="#FFFFFF" stroke-width="4.5" stroke-linecap="round" transform="translate(34.500000, 31.800000) scale(-1, 1) rotate(180.000000) translate(-34.500000, -31.800000) "></path>
-                        <path d="M16.8,39.75 C18.3545268,35.6541208 19.4760044,32.8443836 20.164433,31.3207883 C22.4148575,26.3402628 24.2433798,23.85 25.65,23.85 C27.7020701,23.85 30.6520701,29.15 34.5,39.75" id="Line-Copy-8" stroke="#FFFFFF" stroke-width="4.5" stroke-linecap="round" transform="translate(25.650000, 31.800000) scale(-1, 1) rotate(180.000000) translate(-25.650000, -31.800000) "></path>
-                    </g>
-                </g>
-            </g>
+    <g id="Landing-Page---Workpal-v7" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="content" fill-rule="nonzero">
+            <ellipse id="Oval" fill="#493CC2" transform="translate(49.720000, 35.258138) rotate(-90.000000) translate(-49.720000, -35.258138) " cx="49.72" cy="35.258138" rx="7.92" ry="8.058138"></ellipse>
+            <path d="M29.0395677,28.7146549 C39.9741177,28.7146549 48.8395677,20.2965199 48.8395677,9.9124099 C48.8395677,-0.4718651 39.9741177,-8.8900001 29.0395677,-8.8900001 L29.0395677,28.7146549 Z" id="Path" fill="#19A1FB" transform="translate(38.939568, 9.912327) rotate(-90.000000) translate(-38.939568, -9.912327) "></path>
+            <path d="M28.7999999,15.4000001 C17.8654499,15.4000001 8.9999999,23.8181351 8.9999999,34.2022451 C8.9999999,44.5865201 17.8654499,53.0046551 28.7999999,53.0046551 L28.7999999,15.4000001 Z" id="Path" fill="#FD7162" transform="translate(18.900000, 34.202328) rotate(-90.000000) translate(-18.900000, -34.202328) "></path>
+            <path d="M8.12,19.91621 C12.49415,19.91621 16.04,16.308485 16.04,11.858105 L16.04,3.8 L8.12,3.8 C3.74585,3.8 0.2,7.407725 0.2,11.858105 C0.2,16.308485 3.74585,19.91621 8.12,19.91621 Z" id="Path" fill="#3CC28F" transform="translate(8.120000, 11.858105) rotate(-90.000000) translate(-8.120000, -11.858105) "></path>
         </g>
     </g>
 </svg>

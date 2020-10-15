@@ -12,9 +12,9 @@ html, body, #___gatsby {
 }
 
 h2 {
-    color: white;
+    color: #5A5A5A;
     font-size: 30px;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 .HeaderGroup {
@@ -31,7 +31,7 @@ h2 {
 }
 
 .Logo {
-    background: url('../images/svgs/workpal-logo.svg') no-repeat center center;
+    background: url('../images/svgs/workpal_logo.svg') no-repeat center center;
     background-size: contain;
     position: relative;
     background-repeat: no-repeat;

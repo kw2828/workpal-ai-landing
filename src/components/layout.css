@@ -52,7 +52,7 @@ a {
   height: 100%;
   width: 100%;
   min-height: 800px;
-  background: #22336E;
+  background: #fff;
   min-width: fit-content;
   background-size: cover; 
   background-repeat: no-repeat;
@@ -91,17 +91,17 @@ a {
 
 .Hero h1 {
   margin: 0;
-  color: white;
-  font-size: 45px;
+  color: #5B5B5B;
+  font-size: 50px;
   line-height: 1.2;
   margin-bottom: 10px;
   animation: HeroAnimationVertical 3s 0.2s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
 }
 
 .Hero p {
-  font-size: 20px;
+  font-size: 24px;
   line-height: 1.5;
-  color: white;
+  color: #5B5B5B;
   margin-right: 50px;
   animation: HeroAnimationVertical 4s 0.4s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
 }
@@ -125,15 +125,15 @@ input {
   font-size: 16px;
   margin-top: 15px;
   background: none;
-  border: 2px solid white;
-  color: white;
+  border: 2px solid #EAEBF1;
+  color: #858585;
   vertical-align: bottom;
   float: left;
   animation: HeroAnimationVertical 5s 0.5s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
 }
 
 input::placeholder {
-  color: white;
+  color: #858585;
   font-size: 16px;
 }
 
@@ -144,7 +144,7 @@ input:focus {
 .Hero span {
   font-size: 18px;
   line-height: 1.5;
-  color: white;
+  color: #5B5B5B;
 }
 
 
@@ -311,8 +311,10 @@ input:focus {
 
 .not_submitted {
   width: 130px;
-  background: url('../images/hermes/hermes_text_me.png');
+  background: #4852A2;
   padding-bottom: 0px;
+  font-size: 18px;
+  color: white;
   margin-bottom: 0px;
   background-size: cover;
   background-position: center;
@@ -321,6 +323,7 @@ input:focus {
   float: left;
   outline: none;
   border: none;
+  border-radius: 0px 5px 5px 0px;
   cursor: pointer;
   align-items: center;
   justify-items: center;
@@ -329,7 +332,9 @@ input:focus {
 
 .submitted {
   width: 130px;
-  background: url('../images/hermes/sent.png');
+  background: #4852A2;
+  color: white;
+  font-size: 20px;
   padding-bottom: 0px;
   margin-bottom: 0px;
   background-size: cover;
@@ -358,6 +363,7 @@ input:focus {
 .mobile-image {
   display: none;
 }
+
 
 @media (min-width: 100px) and (max-width: 900px) {
   html, body, #___gatsby {
