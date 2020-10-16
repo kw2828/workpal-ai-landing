@@ -8,7 +8,7 @@ html, body, #___gatsby {
     background: relative;
     min-height: 100%;
     margin: 0 auto;
-    max-width: 1100px;
+    max-width: 1300px;
 }
 
 h2 {
@@ -26,17 +26,16 @@ h2 {
     align-items: center;
     justify-items: center;
     display: flex;
-    margin-left: 30px;
     padding-top: 20px;
 }
 
 .Logo {
-    background: url('../images/svgs/workpal_logo.svg') no-repeat center center;
+    background: url('../images/svgs/workpal_logo_hero.svg') no-repeat center center;
     background-size: contain;
     position: relative;
     background-repeat: no-repeat;
-    width: 40px;
-    height: 40px;
+    width: 58px;
+    height: 45px;
     flex: 0 0 65%;
 }
 

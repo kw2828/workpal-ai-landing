@@ -72,7 +72,7 @@ export default class HeroPage extends React.Component {
                           <input
                               type="text"
                               name="phone"
-                              placeholder="Phone # 718 222-3333"
+                              placeholder="Request early access"
                               value={this.state.phone}
                               onChange={this.handleInputChange} />    
                           {button}                

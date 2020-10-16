@@ -12,7 +12,7 @@ export default class WorkingIcon2 extends React.Component {
      preserveAspectRatio: "xMidYMid slice"
     }
    }}
-   height={540}
+   height={800}
    width={960}
    />
   );

@@ -1,7 +1,7 @@
 html, body, #___gatsby {
   height: 100%;
   width: 100%;
-  background: #22336E;
+  background: #fff;
 }
 
 body {
@@ -51,7 +51,7 @@ a {
 .container-hero {
   height: 100%;
   width: 100%;
-  min-height: 800px;
+  min-height: 1200px;
   background: #fff;
   min-width: fit-content;
   background-size: cover; 
@@ -61,16 +61,15 @@ a {
 .Hero {
   min-height: 100%;
   margin: 0 auto;
-  max-width: 1100px;
+  max-width: 1300px;
   z-index: 2;
 }
 
 .HeroGroup {
   width: 100%;
   height: 100%;
-  margin-right: 50px;
-  margin-left: 50px;
-  margin-top: 40px;
+  margin-top: 100px;
+  margin-bottom: 200px;
   padding: 0;
   border: 0;
   display: grid;
@@ -92,14 +91,14 @@ a {
 .Hero h1 {
   margin: 0;
   color: #5B5B5B;
-  font-size: 50px;
+  font-size: 60px;
   line-height: 1.2;
   margin-bottom: 10px;
   animation: HeroAnimationVertical 3s 0.2s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
 }
 
 .Hero p {
-  font-size: 24px;
+  font-size: 26px;
   line-height: 1.5;
   color: #5B5B5B;
   margin-right: 50px;
@@ -119,10 +118,10 @@ a {
 input {
   width: 50%;
   min-width: 220px;
-  height: 50px;
+  height: 60px;
   border-radius: 10px 0px 0px 10px; /* top left, top right, bottom right, bottom left */
   padding-left: 20px;
-  font-size: 16px;
+  font-size: 18px;
   margin-top: 15px;
   background: none;
   border: 2px solid #EAEBF1;
@@ -134,7 +133,7 @@ input {
 
 input::placeholder {
   color: #858585;
-  font-size: 16px;
+  font-size: 18px;
 }
 
 input:focus {
@@ -163,12 +162,20 @@ input:focus {
   z-index: 2;
 }
 
+.SectionGray {
+  min-height: 100%;
+  margin: 0 auto;
+  background: #F6F6F7;
+  padding-top: 70px;
+  padding-bottom: 100px;
+  z-index: 2;
+}
 
 
 .SectionGroup {
   width: 100%;
   height: 100%;
-  max-width: 1100px;
+  max-width: 1300px;
   margin: 0 auto;
   padding: 0;
   border: 0;
@@ -178,6 +185,38 @@ input:focus {
   justify-items: center;
   grid-template-columns: repeat(2, 50%);
 }
+
+.section-info h1 {
+  font-size: 43px;
+  color: #5A5A5A;
+}
+
+.section-info p {
+  font-size: 24px;
+  color: #5A5A5A;
+  font-weight: 400;
+}
+
+.user-segment {
+  width: 250px;
+  background: none;
+  padding: 10px;
+  font-size: 22px;
+  margin-bottom: 60px;
+  margin-top: 0px;
+  font-weight: 800;
+  color: #5A5A5A;
+  background-size: cover;
+  background-position: center;
+  float: left;
+  outline: none;
+  border: 3px solid #979797;
+  border-radius: 20px;
+  cursor: pointer;
+  align-items: center;
+  justify-items: center;
+}
+
 
 .FeatureGroup {
   width: 100%;
@@ -193,6 +232,10 @@ input:focus {
   grid-template-columns: repeat(3, 33%);
 }
 
+.user-segment {
+
+}
+
 .section-work {
   width: 100%;
   height: 100px;
@@ -206,7 +249,7 @@ input:focus {
 }
 
 .section-info {
-  max-width: 450px;
+  max-width: 550px;
   margin-left: 10px;
   margin-right: 10px;
 }
@@ -265,7 +308,8 @@ input:focus {
 }
 
 .screenshot {
-  width: 55%;
+  width: 100%;
+  max-width: 600px;
   margin-bottom: 20px;
 }
 
@@ -313,7 +357,8 @@ input:focus {
   width: 130px;
   background: #4852A2;
   padding-bottom: 0px;
-  font-size: 18px;
+  font-size: 20px;
+  font-weight: 600;
   color: white;
   margin-bottom: 0px;
   background-size: cover;
