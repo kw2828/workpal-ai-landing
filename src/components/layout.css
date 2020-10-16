@@ -254,6 +254,12 @@ input:focus {
   margin-right: 10px;
 }
 
+.section-info a {
+  color: #2575D7;
+  font-size: 30px;
+  font-weight: 600;
+}
+
 .section-right {
   margin-left: 80px;
   width: 100%;
