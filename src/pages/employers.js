@@ -3,25 +3,28 @@ import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import screenshot from '../images/employees.png'
+import screenshot from '../images/analytics.png'
 import get_started from '../images/hermes/get_started.png'
 import hermes_logo from '../images/hermes/hermes_logo.png'
 
 const Employers = () => (
-    <div className="SectionGray">
-      <div className="SectionGroup">
-        <div>
-          <button className="user-segment">For Employees</button>
-          <img className="screenshot" src={screenshot} />     
-        </div>
-        <div className="section-info">
-              <h1>Meet your AI companion and counselor. Manage your time, stress, and weekly goals more intelligently with a partner.
-  </h1>
-              <p>Employees get access to a 24/7, unbiased, private, and anonymous work companion which gives them access to tools, world-class methods, and content for specific needs. Connect 1:1 with team members weekly</p>
-              <a>Request early access →</a>       
-        </div>
-      </div>                     
-    </div>
+  <div className="SectionWhite">
+    <div className="SectionGroup">
+      <div class-info="info-wrapper">
+        <button className="user-segment">For Employers</button>
+        <br />
+        <br />
+        <div className="section-info-employers">
+          <div>
+            <h1 style={{ maxWidth: 550 }}>Drive visible change with a live pulse on employee health, emotional wellbeing, personal growth, and holistic goals. </h1>
+            <p style={{ maxWidth: 550 }}>Strengthen relationships and build bonds across departments and distances. Improve engagement numbers across the board and understand the needs of your team and community. </p>
+            <a style={{ maxWidth: 550 }}>Request early access →</a> 
+          </div>  
+      </div>    
+      </div>
+      <img className="screenshot" src={screenshot} />     
+    </div>                     
+  </div>
 )
 
 export default Employers
