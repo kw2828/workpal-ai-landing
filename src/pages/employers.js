@@ -7,7 +7,7 @@ import screenshot from '../images/employees.png'
 import get_started from '../images/hermes/get_started.png'
 import hermes_logo from '../images/hermes/hermes_logo.png'
 
-const HermesDesc = () => (
+const Employers = () => (
     <div className="SectionGray">
       <div className="SectionGroup">
         <div>
@@ -24,4 +24,4 @@ const HermesDesc = () => (
     </div>
 )
 
-export default HermesDesc
+export default Employers
