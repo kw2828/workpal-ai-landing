@@ -12,8 +12,8 @@ export default class Icon extends React.Component {
      preserveAspectRatio: "xMidYMid slice"
     }
    }}
-   height={540}
-   width={500}
+   height={600}
+   width={600}
    />
   );
  }

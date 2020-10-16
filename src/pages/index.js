@@ -9,12 +9,11 @@ import SEO from "../components/seo";
 
 import plants from "../images/svgs/women_plants.svg";
 import blob from "../images/svgs/workpal_logo.svg";
-import HeroPage from "./hero"
-import HermesDesc from "./hermes_one"
+import WorkpalHero from "./hero"
+import Employees from "./employees"
+import Employers from "./employers"
 import WorkpalFeatures from "./workpal_features"
-import HermesWorkers from "./hermes_two"
-import HermesMTA from "./hermes_three"
-import HermesCTA from "./cta"
+import WorkpalCTA from "./cta"
 import Footer from "../components/footer"
 
 
@@ -24,7 +23,10 @@ export default class IndexPage extends React.Component {
     return (
       <div> 
         <Layout>
-          <HeroPage />
+          <WorkpalHero />
+          <Employees/> 
+          <Employers/>
+          <WorkpalCTA /> 
         </Layout>
       </div>
     );

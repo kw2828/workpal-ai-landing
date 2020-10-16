@@ -49,9 +49,9 @@ export default class HeroPage extends React.Component {
         let button;
     
         if (hasSubmitted) {
-          button = <button type="submit" className="submitted" />
+          button = <button type="submit" className="submitted"> Submitted </button>
         } else {
-          button = <button type="submit" className="not_submitted" />
+          button = <button type="submit" className="not_submitted">Sign Up</button>
         }
         return (
             <div className="Hero">
@@ -62,17 +62,17 @@ export default class HeroPage extends React.Component {
                 </div>
                 <div className="info">
                   <h1>
-                    Win your work day.<br /> Prioritize your tasks.
+                  Smartest way to <br /> invest in your people
                   </h1>
                   <p className="info-subtext">
-                  Workpal is an AI assistant to help busy professionals materialize their goals by managing their tasks through Conversational AI and proven frameworks. 
+                  Drive wellness and track impact. See how Workpal can help your workplace thrive. 
                   </p>
                   <form onSubmit={this.handleSubmit} className="form-group">
                         <div className="row">
                           <input
                               type="text"
                               name="phone"
-                              placeholder="Phone # 718 222-3333"
+                              placeholder="Request early access"
                               value={this.state.phone}
                               onChange={this.handleInputChange} />    
                           {button}                

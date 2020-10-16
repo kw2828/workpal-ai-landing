@@ -3,11 +3,11 @@ import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import screenshot from '../images/hermes/screenshot_3.png'
+import screenshot from '../images/happy_employee.png'
 import get_started from '../images/hermes/get_started.png'
 import health_prof from '../images/hermes/healthprof.png'
 
-export default class HermesMTA extends React.Component {
+export default class WorkpalCTA extends React.Component {
     state = {
         phone: "",
         submitted: false,
@@ -45,26 +45,32 @@ export default class HermesMTA extends React.Component {
         let button;
     
         if (hasSubmitted) {
-          button = <button type="submit" className="submitted" />
+            button = <button type="submit" className="submitted"> Submitted </button>
         } else {
-          button = <button type="submit" className="not_submitted" />
+            button = <button type="submit" className="not_submitted">Sign Up</button>
         }
         return (
             <div>
                 <div className="CTAGroup">
                     <div className="cta-info">
-                        <h2 className="cta-text">Workpal is building the future of work and proactive healthcare.</h2>
-                        <form onSubmit={this.handleSubmit}>
-                            <div className="cta-row">
+                        <h2 className="cta-text">Sign up for early access</h2>
+                        <form onSubmit={this.handleSubmit} className="form-group">
+                            <div className="row">
                                 <input
                                     type="text"
                                     name="phone"
-                                    placeholder="Phone # (e.g. 718 222-3333)"
+                                    placeholder="Request early access"
                                     value={this.state.phone}
                                     onChange={this.handleInputChange} />    
-                                {button}                
+                                {button}
                             </div>
                         </form>
+                        <img className="" src={screenshot} />  
+                        <p>© Workpal 2020</p>
+                        <br />    
+                        <br />              
+                        <br />              
+                        <br /> 
                     </div>
                 </div>                     
             </div>
