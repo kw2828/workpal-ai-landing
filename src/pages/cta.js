@@ -65,7 +65,7 @@ export default class WorkpalCTA extends React.Component {
                                 {button}
                             </div>
                         </form>
-                        <img className="" src={screenshot} />  
+                        <img className="screenshot" src={screenshot} />  
                         <p>© Workpal 2020</p>
                         <br />    
                         <br />              

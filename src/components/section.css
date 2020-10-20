@@ -204,11 +204,6 @@
     grid-template-columns: repeat(2, 50%);
   }
   
-  .section-info h1 {
-    font-size: 43px;
-    color: #5A5A5A;
-  }
-  
   .section-info p {
     font-size: 24px;
     color: #5A5A5A;
@@ -316,4 +311,49 @@
     margin-left: 80px;
     width: 100%;
     max-width: 500px;;
+  }
+
+  @media (min-width: 100px) and (max-width: 900px) {
+    .SectionGroup {
+      grid-template-columns: repeat(1, auto);
+      height: 100%;
+      max-width: 450px;
+      align-items: center;
+      justify-items: center;
+      margin: 0px auto;
+      margin-top: 50px;
+      margin-bottom: 50px;
+    }
+
+    .section-info h1 {
+      font-size: 30px;
+    }
+
+    .section-info p {
+      font-size: 18px;
+    }
+
+    .section-info a {
+      font-size: 24px;
+    }
+
+    .section-info-employers h1 {
+      font-size: 30px;
+    }
+    
+    .section-info-employers p {
+      font-size: 18px;
+    }
+    
+    .section-info-employers a {
+      font-size: 24px;
+    }
+
+    .SectionGray {
+      padding-top: 20px;
+    }
+
+    .user-segment {
+      font-size: 18px;
+    }
   }
