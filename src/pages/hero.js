@@ -79,7 +79,7 @@ export default class HeroPage extends React.Component {
                       </div>
                   </form>
                 </div>
-                <div className="image">
+                <div className="hero-image">
                   <WorkingIcon/>               
                 </div>
               </div>
