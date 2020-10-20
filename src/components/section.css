@@ -1,4 +1,359 @@
-html, body, #___gatsby {
-    height: 100%;
+.Section {
+    min-height: 100%;
+    margin: 0 auto;
+    max-width: 1100px;
+    z-index: 2;
+    margin-top: 80px;
+  }
+  
+  .Section-Features {
+    min-height: 100%;
+    margin: 0 auto;
+    max-width: 1100px;
+    z-index: 2;
+  }
+  
+  .SectionGray {
+    min-height: 100%;
+    margin: 0 auto !important;
+    background: #F6F6F7;
+    padding-top: 70px;
+    padding-bottom: 100px;
+    z-index: 2;
+  }
+  
+  .SectionWhite {
+    min-height: 100%;
+    margin: 0 auto;
+    background: #fff;
+    padding-top: 70px;
+    padding-bottom: 100px;
+    z-index: 2;
+  }
+  
+  .SectionGroup {
     width: 100%;
-}
+    height: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0;
+    border: 0;
+    display: grid;
+    text-align: left;
+    align-items: center;
+    justify-items: center;
+    grid-template-columns: repeat(2, 50%);
+  }
+  
+  .section-info h1 {
+    font-size: 43px;
+    color: #5A5A5A;
+  }
+  
+  .section-info p {
+    font-size: 24px;
+    color: #5A5A5A;
+    font-weight: 400;
+  }
+  
+  .user-segment-group {
+    width: 100%;
+    margin-bottom: 60px;
+  }
+  
+  .user-segment {
+    width: 250px;
+    background: none;
+    padding: 10px;
+    margin-bottom: 60px;
+    font-size: 22px;
+    margin-top: 0px;
+    font-weight: 800;
+    color: #5A5A5A;
+    background-size: cover;
+    background-position: center;
+    float: left;
+    outline: none;
+    border: 3px solid #979797;
+    border-radius: 20px;
+    cursor: pointer;
+    align-items: center;
+    justify-items: center;
+  }
+  
+  .info-wrapper {
+    max-width: 550px;
+    text-align: left;
+    clear: left;
+    float: left;
+  }
+  
+  .FeatureGroup {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    border: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: grid;
+    text-align: left;
+    align-items: center;
+    justify-items: center;
+    grid-template-columns: repeat(3, 33%);
+  }
+  
+  .section-work {
+    width: 100%;
+    height: 100px;
+    font-size: 30px;
+    margin-bottom: -40px;
+  }
+  
+  .header-work {
+    color: #22336E;
+    text-align: center;
+  }
+  
+  .section-info {
+    max-width: 100%;
+    margin-top: 0px;
+    text-align: left;
+  }
+  
+  .section-info-employers {
+    max-width: 100%;
+    margin-left: 0px;
+    text-align: left;
+    float: left;
+  }
+  
+  .section-info-employers h1 {
+    font-size: 43px;
+    color: #5A5A5A;
+  }
+  
+  .section-info-employers p {
+    font-size: 24px;
+    color: #5A5A5A;
+    font-weight: 400;
+    text-align: left;
+    float: left;
+    margin-top: 0px;
+  }
+  
+  .section-info-employers a {
+    color: #2575D7;
+    font-size: 30px;
+    font-weight: 600;
+  }
+  
+  .section-info a {
+    color: #2575D7;
+    font-size: 30px;
+    font-weight: 600;
+  }
+  
+  .section-right {
+    margin-left: 80px;
+    width: 100%;
+    max-width: 500px;;
+  }.Section {
+    min-height: 100%;
+    margin: 0 auto;
+    max-width: 1100px;
+    z-index: 2;
+    margin-top: 80px;
+  }
+  
+  .Section-Features {
+    min-height: 100%;
+    margin: 0 auto;
+    max-width: 1100px;
+    z-index: 2;
+  }
+  
+  .SectionGray {
+    min-height: 100%;
+    margin: 0 auto !important;
+    background: #F6F6F7;
+    padding-top: 70px;
+    padding-bottom: 100px;
+    z-index: 2;
+  }
+  
+  .SectionWhite {
+    min-height: 100%;
+    margin: 0 auto;
+    background: #fff;
+    padding-top: 70px;
+    padding-bottom: 100px;
+    z-index: 2;
+  }
+  
+  .SectionGroup {
+    width: 100%;
+    height: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0;
+    border: 0;
+    display: grid;
+    text-align: left;
+    align-items: center;
+    justify-items: center;
+    grid-template-columns: repeat(2, 50%);
+  }
+  
+  .section-info p {
+    font-size: 24px;
+    color: #5A5A5A;
+    font-weight: 400;
+  }
+  
+  .user-segment-group {
+    width: 100%;
+    margin-bottom: 60px;
+  }
+  
+  .user-segment {
+    width: 250px;
+    background: none;
+    padding: 10px;
+    margin-bottom: 60px;
+    font-size: 22px;
+    margin-top: 0px;
+    font-weight: 800;
+    color: #5A5A5A;
+    background-size: cover;
+    background-position: center;
+    float: left;
+    outline: none;
+    border: 3px solid #979797;
+    border-radius: 20px;
+    cursor: pointer;
+    align-items: center;
+    justify-items: center;
+  }
+  
+  .info-wrapper {
+    max-width: 550px;
+    text-align: left;
+    clear: left;
+    float: left;
+  }
+  
+  .FeatureGroup {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    border: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: grid;
+    text-align: left;
+    align-items: center;
+    justify-items: center;
+    grid-template-columns: repeat(3, 33%);
+  }
+  
+  .section-work {
+    width: 100%;
+    height: 100px;
+    font-size: 30px;
+    margin-bottom: -40px;
+  }
+  
+  .header-work {
+    color: #22336E;
+    text-align: center;
+  }
+  
+  .section-info {
+    max-width: 100%;
+    margin-top: 0px;
+    text-align: left;
+  }
+  
+  .section-info-employers {
+    max-width: 100%;
+    margin-left: 0px;
+    text-align: left;
+    float: left;
+  }
+  
+  .section-info-employers h1 {
+    font-size: 43px;
+    color: #5A5A5A;
+  }
+  
+  .section-info-employers p {
+    font-size: 24px;
+    color: #5A5A5A;
+    font-weight: 400;
+    text-align: left;
+    float: left;
+    margin-top: 0px;
+  }
+  
+  .section-info-employers a {
+    color: #2575D7;
+    font-size: 30px;
+    font-weight: 600;
+  }
+  
+  .section-info a {
+    color: #2575D7;
+    font-size: 30px;
+    font-weight: 600;
+  }
+  
+  .section-right {
+    margin-left: 80px;
+    width: 100%;
+    max-width: 500px;;
+  }
+
+  @media (min-width: 100px) and (max-width: 900px) {
+    .SectionGroup {
+      grid-template-columns: repeat(1, auto);
+      height: 100%;
+      max-width: 450px;
+      align-items: center;
+      justify-items: center;
+      margin: 0px auto;
+      margin-top: 50px;
+      margin-bottom: 50px;
+    }
+
+    .section-info h1 {
+      font-size: 30px;
+    }
+
+    .section-info p {
+      font-size: 18px;
+    }
+
+    .section-info a {
+      font-size: 24px;
+    }
+
+    .section-info-employers h1 {
+      font-size: 30px;
+    }
+    
+    .section-info-employers p {
+      font-size: 18px;
+    }
+    
+    .section-info-employers a {
+      font-size: 24px;
+    }
+
+    .SectionGray {
+      padding-top: 20px;
+    }
+
+    .user-segment {
+      font-size: 18px;
+    }
+  }

@@ -25,8 +25,8 @@ export default class IndexPage extends React.Component {
         <Layout>
           <WorkpalHero />
           <Employees/> 
-          <Employers/>
-          <WorkpalCTA /> 
+          <Employers/> 
+          <WorkpalCTA />
         </Layout>
       </div>
     );
